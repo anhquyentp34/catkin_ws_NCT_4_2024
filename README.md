@@ -17,4 +17,4 @@ roslaunch diffbot_navigation robot_tranh.launch
 Bước 2: chạy marker để đánh dấu người di chuyển và hướng di chuyển(chay trong terminal khác)
 rosrun using_markers marker_publisher5.py
 Bước 3: Chay marker để đánh dấu điểm xuất phát và điểm đích của robot và người(chạy trong terminal khác)
-rosrun using_markers marker_publisher5.py
+rosrun using_markers start_goal_publisher.py 
