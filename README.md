@@ -4,9 +4,9 @@ This research integrates the A* algorithm into the global_planner and the TEB al
 Required Packages
 To run this workspace, you need to add the following packages:
 
-gazebo_sfm_plugin
-lightsfm
-teb_local_planner
+[gazebo_sfm_plugin](https://github.com/robotics-upo/gazebo_sfm_plugin)
+[lightsfm](https://github.com/robotics-upo/lightsfm)
+[teb_local_planner](https://github.com/rst-tu-dortmund/teb_local_planner)
 Running the Program
 Step 1: Launch the Experiment
 roslaunch diffbot_navigation robot_tranh.launch
